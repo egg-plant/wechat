@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="section">
+     <view class="flex-wrp" style="flex-direction:row;">
+      住院申请表
+       姓名：<input type="text" confirm-type="search" placeholder="请输入医院名" focus="{{focus}}" />
+     <input type="text" confirm-type="search" placeholder="请输入医院名" focus="{{focus}}" />
+      <view class="btn-area">
+        <button type="primary" size = "mini"  bindtap="bindButtonTap">医院搜索</button>
+      </view>
+    </view>
+  </view>
+</view>

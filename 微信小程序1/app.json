@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/reservation/reservation",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/personalcenter/personalcenter",
+    "pages/payment/payment",
+    "pages/application/application"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#59A5F0",
+    "navigationBarTitleText": "就诊助手小程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#59A5F0",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/reservation/reservation",
+        "text": "预约挂号"
+      },
+      {
+        "pagePath": "pages/payment/payment",
+        "text": "门诊缴费"
+      },
+      {
+        "pagePath": "pages/application/application",
+        "text": "住院申请"
+      },
+      {
+        "pagePath": "pages/personalcenter/personalcenter",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
