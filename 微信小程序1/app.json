@@ -5,7 +5,8 @@
     "pages/logs/logs",
     "pages/personalcenter/personalcenter",
     "pages/payment/payment",
-    "pages/application/application"
+    "pages/application/application",
+    "pages/myinformation/myinformation"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -31,7 +32,7 @@
         "text": "住院申请"
       },
       {
-        "pagePath": "pages/personalcenter/personalcenter",
+        "pagePath": "pages/myinformation/myinformation",
         "text": "个人中心"
       }
     ]
